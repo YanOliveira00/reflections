@@ -1,0 +1,6 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+R:) Quando iniciamos um repositório criamos um arquio .git que armazena configurações de status e modificações dos arquivos que serão adicionados. É como se criasse um recipiente vazio em uma pasta e tudo que for adicionado a ele será documentado e organizado.
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+r:) a staging area é uma área de preparação e revisão de qualquer arquivo pronto para receber commit. A área de trabalho do repositório por sua vez, é uma área de armazenamento e organização de commits já revisados
+As duas possuem grande relevância, pois estima-se que quando um commit chega no repositório, ele já tenha passado por uma minusciosa revisão.
