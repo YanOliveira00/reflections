@@ -1,0 +1,5 @@
+version control = São serviços capazes de servir como repositórios
+exemplos= Docs; Wikipedia; Dropbox; Git; etc...
+git= version control voltado especificamente para desenvolvimento de código
+commit = bloco de conteúdo salvo pelo Git
+tamanho do commit = geralmente selecionado por mudança lógica. Existe um balanço de envio. Não enviar commits toda e nem demorar muito a upar um.

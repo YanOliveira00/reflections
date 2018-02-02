@@ -1,0 +1,23 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+R: Pois facilita e agiliza um trabalho entediante, que demanda bastante tempo e atenção.
+ Pode-se realizar revisões de milhares de linhas de código em um curto espeço de tempo
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+R:) Ao longo prazo, seremos capaz de manter reposições de diversas partes de código, possibilitando a capacidade de retroceder quando bem quisermos.
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs? 
+R:) O pró é que tornas o envio da quantidade de commits variando de pessoa a pessoa, algo muito flexível e adaptável ao usuário. 
+O contra é que se houver falhas humanas ou falta de bom senso, arquivos poderão ser perdidos ou faltará organização.
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+R:) Pois possuem finalidades diferentes, apesar do serviço ser basicamente o mesmo. O git é voltado ao trabalho de desenvolvimento, que geralmente inclui multiplos arquivos interligados, que interagem entre sí. O docs, dropbox e etc, são version controls mais genéricos.
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+R:) O comando git log é usado dentro do repositório para verificação dosss commits realizados antes e seus respectivos ID's.
+Com o conhecimento dos ID's realiza-se a comparação através do git diff ID1 ID2. Onde as diferenças serão representadas por + ou -, que representam inserções ou exclusões nos códigos.
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+R:) Aumenta a segurança, pois sabemos que qualquer alteração podemos simplesmente revertê-la para uma versão anterior livre de qualquer problema. Estimulando modificação sem medo de causar desastres no código principal 
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+R:) Desenvolver projetos pessoais, aprendizado aprimorado e melhorar minhas técnicas com desenvolvimento mais profissional de códigos.
