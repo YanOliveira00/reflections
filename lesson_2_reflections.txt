@@ -4,3 +4,19 @@ R:) Quando iniciamos um repositório criamos um arquio .git que armazena configu
 Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 r:) a staging area é uma área de preparação e revisão de qualquer arquivo pronto para receber commit. A área de trabalho do repositório por sua vez, é uma área de armazenamento e organização de commits já revisados
 As duas possuem grande relevância, pois estima-se que quando um commit chega no repositório, ele já tenha passado por uma minusciosa revisão.
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+R:) Atravé do uso do comando git diff e git diff --staged. Temos como verificar se houve alguma alterações lógica no código. Assim, nos garantindo que só iremos dar commit se houver algo do gênero. 
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+R:)Branches são úteis quando iremos gerar diversas variações advindas de um mesmo código, sem que haja perda do conteúdo original. Algumas mudanças são mais robustas e podem demandar muitos dias, o branch pode deixar todo organizado em uma parte específica do repositório, para que não haja confusão.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+R:) Ajudam a verificar, com certa organização, qual a ordem dos commits e em qual branchs eles estão atribuidos. É capaz de nos dar uma noção de histórico de 'paternidade' de cada commit 
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+R:) O resultado é a fusão das modificações feitas em ambos os branches. É representado para ilustrar melhor de onde um commit veio, mesmo sendo mesclado. É uma questão de organização.
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+R:) Prós: Menor uso de capacidade computacional do software. Avisa todo e qualquer conflito um pouco mais complexo, que demanda uma análise minusciosa do código. Evita tomar decisões por sí.
+Contra: Exige maior atenção do programador. Revisão fica por conta do ser humano. Tarefa pode demandar algum tempo.
